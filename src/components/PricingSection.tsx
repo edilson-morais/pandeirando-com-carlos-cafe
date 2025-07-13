@@ -1,27 +1,10 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { 
-  CheckCircle, 
-  Shield, 
-  Clock, 
-  ArrowRight,
-  Star
-} from "lucide-react";
-
+import { CheckCircle, Shield, Clock, ArrowRight, Star } from "lucide-react";
 export const PricingSection = () => {
-  const features = [
-    "Método testado e aprovado para chegar no seu objetivo final",
-    "Curso Completo com 15 módulos do iniciante ao avançado",
-    "02 anos de acesso ao curso com direito às atualizações",
-    "Bônus #01 - Mini-Curso Dicafé",
-    "Bônus #02 - Lives Exclusivas",
-    "Bônus #03 - Desconto nos Produtos Carlos Café",
-    "Bônus #04 - Grupo Exclusivo para Alunos"
-  ];
-
-  return (
-    <section className="py-20 bg-gradient-to-b from-background to-muted/30">
+  const features = ["Método testado e aprovado para chegar no seu objetivo final", "Curso Completo com 15 módulos do iniciante ao avançado", "02 anos de acesso ao curso com direito às atualizações", "Bônus #01 - Mini-Curso Dicafé", "Bônus #02 - Lives Exclusivas", "Bônus #03 - Desconto nos Produtos Carlos Café", "Bônus #04 - Grupo Exclusivo para Alunos"];
+  return <section className="py-20 bg-gradient-to-b from-background to-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -49,12 +32,10 @@ export const PricingSection = () => {
                 <div>
                   <h3 className="text-2xl font-bold mb-4">Tudo que está incluído:</h3>
                   <div className="space-y-3">
-                    {features.map((feature, index) => (
-                      <div key={index} className="flex items-start gap-3">
+                    {features.map((feature, index) => <div key={index} className="flex items-start gap-3">
                         <CheckCircle className="w-5 h-5 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-muted-foreground">{feature}</span>
-                      </div>
-                    ))}
+                      </div>)}
                   </div>
                 </div>
               </div>
@@ -62,8 +43,8 @@ export const PricingSection = () => {
               {/* Right - Price and CTA */}
               <div className="text-center space-y-6">
                 <div>
-                  <div className="text-sm text-muted-foreground mb-2">De R$ 997 por apenas</div>
-                  <div className="text-6xl font-bold text-primary mb-2">R$ 497</div>
+                  <div className="text-sm text-muted-foreground mb-2">De R$ 327 por apenas</div>
+                  <div className="text-6xl font-bold text-primary mb-2">R$ 147</div>
                   <div className="text-sm text-muted-foreground">ou 12x de R$ 47</div>
                 </div>
 
@@ -113,6 +94,5 @@ export const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };

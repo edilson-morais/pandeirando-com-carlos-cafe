@@ -27,7 +27,7 @@ export const AboutInstructor = () => {
               <div className="relative">
                 <div className="aspect-square rounded-3xl overflow-hidden shadow-elegant">
                   <img 
-                    src={carlosCafe} 
+                    src="/lovable-uploads/af580b9b-079a-4ff1-a29f-4bf86f845367.png" 
                     alt="Carlos Café" 
                     className="w-full h-full object-cover"
                   />

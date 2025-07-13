@@ -29,7 +29,7 @@ export const Fundamentals = () => {
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden shadow-elegant">
               <img 
-                src={carlosPerformance} 
+                src="/lovable-uploads/8fd9502a-69c5-48f9-92b7-39ba467ca9c2.png" 
                 alt="Carlos Café tocando pandeiro em performance ao vivo"
                 className="w-full h-full object-cover"
               />

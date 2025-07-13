@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Star, Globe, Users } from "lucide-react";
-import carlosCafe from "@/assets/carlos-cafe.jpg";
+import carlosCafe from "@/assets/carlos-cafe-performance.jpg";
 
 export const AboutInstructor = () => {
   const artists = [

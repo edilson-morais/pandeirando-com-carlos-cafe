@@ -51,16 +51,16 @@ export const AboutInstructor = () => {
               
               {/* Stats Cards */}
               <div className="grid grid-cols-2 gap-4">
-                <Card className="p-4 text-center bg-gradient-card">
-                  <Users className="w-8 h-8 text-primary mx-auto mb-2" />
+                <Card className="p-4 text-center bg-primary text-primary-foreground">
+                  <Users className="w-8 h-8 text-primary-foreground mx-auto mb-2" />
                   <div className="text-2xl font-bold">1000+</div>
-                  <div className="text-sm text-muted-foreground">Alunos</div>
+                  <div className="text-sm opacity-90">Alunos</div>
                 </Card>
                 
-                <Card className="p-4 text-center bg-gradient-card">
-                  <Globe className="w-8 h-8 text-primary mx-auto mb-2" />
+                <Card className="p-4 text-center bg-primary text-primary-foreground">
+                  <Globe className="w-8 h-8 text-primary-foreground mx-auto mb-2" />
                   <div className="text-2xl font-bold">15+</div>
-                  <div className="text-sm text-muted-foreground">Países</div>
+                  <div className="text-sm opacity-90">Países</div>
                 </Card>
               </div>
             </div>

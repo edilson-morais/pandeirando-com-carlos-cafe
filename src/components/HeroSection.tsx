@@ -48,18 +48,17 @@ export const HeroSection = () => {
             </div>
           </div>
           
-          {/* Right Content - Video Placeholder */}
+          {/* Right Content - Video */}
           <div className="relative">
-            <div className="aspect-video bg-black/50 rounded-2xl overflow-hidden shadow-elegant">
-              <div className="w-full h-full flex items-center justify-center">
-                <div className="text-center text-white">
-                  <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center mx-auto mb-4 hover:bg-primary-glow transition-colors cursor-pointer">
-                    <Play className="w-8 h-8 ml-1" />
-                  </div>
-                  <p className="text-lg font-semibold">Assista o vídeo</p>
-                  <p className="text-white/70">e veja como funciona</p>
-                </div>
-              </div>
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-elegant">
+              <iframe
+                src="https://www.youtube.com/embed/ryskM4LGrtk"
+                title="Aprenda a tocar pandeiro - Carlos Café"
+                className="w-full h-full"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
             </div>
           </div>
         </div>

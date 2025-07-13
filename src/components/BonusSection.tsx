@@ -1,49 +1,34 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { 
-  Gift, 
-  Video, 
-  Users, 
-  ShoppingCart, 
-  MessageCircle, 
-  ArrowRight 
-} from "lucide-react";
-
+import { Gift, Video, Users, ShoppingCart, MessageCircle, ArrowRight } from "lucide-react";
 export const BonusSection = () => {
-  const bonuses = [
-    {
-      number: "01",
-      title: "Dicafé",
-      description: "É um mini-curso com quatro aulas especiais sobre a diferença entre o pandeiro de couro e o pandeiro de nylon, resistência, suor nas mãos e sound filter.",
-      icon: Video,
-      value: "R$ 197"
-    },
-    {
-      number: "02",
-      title: "Lives Exclusivas",
-      description: "Funciona como um aulão online onde vou poder acompanhar a sua evolução, tirar as suas dúvidas e também bater um papo de samba com você!",
-      icon: Video,
-      value: "R$ 297"
-    },
-    {
-      number: "03",
-      title: "Desconto nos Produtos",
-      description: "Além de entrar pro melhor curso de pandeiro do Brasil, você vai ganhar desconto em todos os Produtos Carlos Café.",
-      icon: ShoppingCart,
-      value: "R$ 150"
-    },
-    {
-      number: "04",
-      title: "Grupo Exclusivo Para Alunos",
-      description: "Para aprender ainda mais, nada melhor do que conversar com pessoas que tem o mesmo objetivo e trocar experiências, dúvidas e ter um acompanhamento de perto comigo!",
-      icon: Users,
-      value: "Sem preço"
-    }
-  ];
-
-  return (
-    <section className="py-20 bg-muted/30">
+  const bonuses = [{
+    number: "01",
+    title: "Dicafé",
+    description: "É um mini-curso com quatro aulas especiais sobre a diferença entre o pandeiro de couro e o pandeiro de nylon, resistência, suor nas mãos e sound filter.",
+    icon: Video,
+    value: "R$ 197"
+  }, {
+    number: "02",
+    title: "Lives Exclusivas",
+    description: "Funciona como um aulão online onde vou poder acompanhar a sua evolução, tirar as suas dúvidas e também bater um papo de samba com você!",
+    icon: Video,
+    value: "R$ 297"
+  }, {
+    number: "03",
+    title: "Desconto nos Produtos",
+    description: "Além de entrar pro melhor curso de pandeiro do Brasil, você vai ganhar desconto em todos os Produtos Carlos Café.",
+    icon: ShoppingCart,
+    value: "R$ 150"
+  }, {
+    number: "04",
+    title: "Grupo Exclusivo Para Alunos",
+    description: "Para aprender ainda mais, nada melhor do que conversar com pessoas que tem o mesmo objetivo e trocar experiências, dúvidas e ter um acompanhamento de perto comigo!",
+    icon: Users,
+    value: "Sem preço"
+  }];
+  return <section className="py-20 bg-muted/30">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
@@ -52,8 +37,7 @@ export const BonusSection = () => {
         </div>
 
         <div className="grid md:grid-cols-2 gap-6 mb-12">
-          {bonuses.map((bonus, index) => (
-            <Card key={index} className="p-6 hover:shadow-elegant transition-all duration-300 relative overflow-hidden">
+          {bonuses.map((bonus, index) => <Card key={index} className="p-6 hover:shadow-elegant transition-all duration-300 relative overflow-hidden">
               {/* Bonus Badge */}
               <div className="absolute -top-2 -right-2">
                 <Badge className="bg-primary text-primary-foreground px-3 py-1 rounded-full shadow-lg">
@@ -77,15 +61,9 @@ export const BonusSection = () => {
                   {bonus.description}
                 </p>
                 
-                <div className="flex items-center justify-between pt-2">
-                  <div className="text-right">
-                    <div className="text-sm text-muted-foreground">Valor</div>
-                    <div className="text-lg font-bold text-primary">{bonus.value}</div>
-                  </div>
-                </div>
+                
               </div>
-            </Card>
-          ))}
+            </Card>)}
         </div>
 
         {/* Special Highlight */}
@@ -112,6 +90,5 @@ export const BonusSection = () => {
           </Button>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };

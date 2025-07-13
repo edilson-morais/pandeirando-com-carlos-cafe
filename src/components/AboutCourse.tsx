@@ -15,30 +15,30 @@ export const AboutCourse = () => {
             Com certeza não é só mais um curso como qualquer outro disponível por ai.
           </p>
           
-          <div className="bg-gradient-card rounded-3xl p-8 shadow-elegant">
-            <p className="text-lg leading-relaxed mb-6">
-              Todo o ensinamento foi desenvolvido através de um método <strong className="text-primary">100% testado e aprovado</strong> para
+          <div className="bg-gradient-primary text-primary-foreground rounded-3xl p-8 shadow-elegant">
+            <p className="text-lg leading-relaxed mb-6 opacity-90">
+              Todo o ensinamento foi desenvolvido através de um método <strong className="text-white">100% testado e aprovado</strong> para
               que qualquer aluno chegue em seu objetivo sabendo estrategicamente cada movimento
               realizado no pandeiro.
             </p>
             
             <div className="grid md:grid-cols-3 gap-6 mt-8">
               <div className="text-center space-y-2">
-                <Target className="w-12 h-12 text-primary mx-auto" />
-                <h3 className="font-semibold">Ritmo Gradativo</h3>
-                <p className="text-sm text-muted-foreground">Aumente sua velocidade progressivamente</p>
+                <Target className="w-12 h-12 text-primary-foreground mx-auto" />
+                <h3 className="font-semibold text-primary-foreground">Ritmo Gradativo</h3>
+                <p className="text-sm opacity-80">Aumente sua velocidade progressivamente</p>
               </div>
               
               <div className="text-center space-y-2">
-                <CheckCircle className="w-12 h-12 text-primary mx-auto" />
-                <h3 className="font-semibold">Resistência</h3>
-                <p className="text-sm text-muted-foreground">Desenvolva força e coordenação</p>
+                <CheckCircle className="w-12 h-12 text-primary-foreground mx-auto" />
+                <h3 className="font-semibold text-primary-foreground">Resistência</h3>
+                <p className="text-sm opacity-80">Desenvolva força e coordenação</p>
               </div>
               
               <div className="text-center space-y-2">
-                <Trophy className="w-12 h-12 text-primary mx-auto" />
-                <h3 className="font-semibold">Recursos Avançados</h3>
-                <p className="text-sm text-muted-foreground">Domine técnicas profissionais</p>
+                <Trophy className="w-12 h-12 text-primary-foreground mx-auto" />
+                <h3 className="font-semibold text-primary-foreground">Recursos Avançados</h3>
+                <p className="text-sm opacity-80">Domine técnicas profissionais</p>
               </div>
             </div>
           </div>

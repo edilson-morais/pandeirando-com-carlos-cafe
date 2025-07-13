@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Music, Hand, FileText } from "lucide-react";
 import pandeiroHands from "@/assets/pandeiro-fundamentals-new.jpg";
-import carlosPerformance from "@/assets/carlos-pandeiro-performance.jpg";
+import carlosPerformance from "@/assets/carlos-real-performance.jpg";
 export const Fundamentals = () => {
   const fundamentals = [{
     icon: Music,

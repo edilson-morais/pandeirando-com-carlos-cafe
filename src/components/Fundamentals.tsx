@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { Music, Hand, FileText } from "lucide-react";
-import pandeiroHands from "@/assets/pandeiro-hands.jpg";
+import pandeiroHands from "@/assets/pandeiro-fundamentals-new.jpg";
 
 export const Fundamentals = () => {
   const fundamentals = [

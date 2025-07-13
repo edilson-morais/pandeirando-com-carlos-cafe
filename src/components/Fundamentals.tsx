@@ -1,6 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Music, Hand, FileText } from "lucide-react";
 import pandeiroHands from "@/assets/pandeiro-fundamentals-new.jpg";
+import carlosPerformance from "@/assets/carlos-pandeiro-performance.jpg";
 export const Fundamentals = () => {
   const fundamentals = [{
     icon: Music,
@@ -27,7 +28,11 @@ export const Fundamentals = () => {
           {/* Left - Image */}
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden shadow-elegant">
-              
+              <img 
+                src={carlosPerformance} 
+                alt="Carlos Café tocando pandeiro em performance ao vivo"
+                className="w-full h-full object-cover"
+              />
             </div>
             {/* Floating card */}
             <div className="absolute -bottom-6 -right-6 bg-primary text-primary-foreground p-6 rounded-2xl shadow-glow">

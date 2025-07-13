@@ -25,11 +25,11 @@ export const AboutInstructor = () => {
             {/* Left - Photo and Stats */}
             <div className="space-y-6">
               <div className="relative">
-                <div className="aspect-square rounded-3xl overflow-hidden shadow-elegant">
+                <div className="aspect-[3/4] rounded-3xl overflow-hidden shadow-elegant">
                   <img 
                     src="/lovable-uploads/af580b9b-079a-4ff1-a29f-4bf86f845367.png" 
                     alt="Carlos Café" 
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-center"
                   />
                 </div>
                 

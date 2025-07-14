@@ -47,7 +47,7 @@ export const PricingSection = () => {
                 <div>
                   <div className="text-sm text-muted-foreground mb-2">De R$ 327 por apenas</div>
                   <div className="text-6xl font-bold text-primary mb-2">R$ 147</div>
-                  <div className="text-sm text-muted-foreground">ou 12 x de R$ 15,20 </div>
+                  
                 </div>
 
                 <Button variant="cta" size="lg" className="w-full group text-lg py-6" onClick={() => window.open('https://pay.hotmart.com/L56769807K?checkoutMode=10&bid=1752167369218&utm_source=cafe&utm_medium=pv&utm_campaign=pandeirando+com+carlos+cafe&utm_id=carlos+cafe', '_blank')}>

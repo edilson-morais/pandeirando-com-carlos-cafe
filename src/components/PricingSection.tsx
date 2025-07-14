@@ -48,7 +48,12 @@ export const PricingSection = () => {
                   <div className="text-sm text-muted-foreground">ou 12x de R$ 47</div>
                 </div>
 
-                <Button variant="cta" size="lg" className="w-full group text-lg py-6">
+                <Button 
+                  variant="cta" 
+                  size="lg" 
+                  className="w-full group text-lg py-6"
+                  onClick={() => window.open('https://pay.hotmart.com/L56769807K?checkoutMode=10&bid=1752167369218&utm_source=cafe&utm_medium=pv&utm_campaign=pandeirando+com+carlos+cafe&utm_id=carlos+cafe', '_blank')}
+                >
                   SIM, QUERO COMEÇAR AGORA
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Button>
@@ -76,7 +81,12 @@ export const PricingSection = () => {
 
           {/* Final CTA */}
           <div className="text-center mt-8">
-            <Button variant="hero" size="lg" className="group text-xl px-12 py-6">
+            <Button 
+              variant="hero" 
+              size="lg" 
+              className="group text-xl px-12 py-6"
+              onClick={() => window.open('https://pay.hotmart.com/L56769807K?checkoutMode=10&bid=1752167369218&utm_source=cafe&utm_medium=pv&utm_campaign=pandeirando+com+carlos+cafe&utm_id=carlos+cafe', '_blank')}
+            >
               sim, quero fazer parte!
               <ArrowRight className="w-6 h-6 group-hover:translate-x-1 transition-transform" />
             </Button>
@@ -88,7 +98,11 @@ export const PricingSection = () => {
             <p className="text-muted-foreground mb-6">
               Conheça a plataforma por dentro e veja o que você vai aprender:
             </p>
-            <Button variant="outline" size="lg">
+            <Button 
+              variant="outline" 
+              size="lg"
+              onClick={() => window.open('https://pay.hotmart.com/L56769807K?checkoutMode=10&bid=1752167369218&utm_source=cafe&utm_medium=pv&utm_campaign=pandeirando+com+carlos+cafe&utm_id=carlos+cafe', '_blank')}
+            >
               quero tocar pandeiro
             </Button>
           </div>

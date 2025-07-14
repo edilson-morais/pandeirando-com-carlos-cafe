@@ -63,7 +63,11 @@ export const AboutCourse = () => {
             </p>
             
             <div className="pt-6">
-              <Button variant="cta" size="lg">
+              <Button 
+                variant="cta" 
+                size="lg"
+                onClick={() => window.open('https://pay.hotmart.com/L56769807K?checkoutMode=10&bid=1752167369218&utm_source=cafe&utm_medium=pv&utm_campaign=pandeirando+com+carlos+cafe&utm_id=carlos+cafe', '_blank')}
+              >
                 QUERO COMEÇAR AGORA
               </Button>
             </div>

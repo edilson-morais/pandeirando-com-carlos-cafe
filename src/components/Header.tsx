@@ -53,7 +53,11 @@ export const Header = () => {
           </nav>
 
           {/* CTA Button */}
-          <Button variant="default" size="sm">
+          <Button 
+            variant="default" 
+            size="sm"
+            onClick={() => window.open('https://pay.hotmart.com/L56769807K?checkoutMode=10&bid=1752167369218&utm_source=cafe&utm_medium=pv&utm_campaign=pandeirando+com+carlos+cafe&utm_id=carlos+cafe', '_blank')}
+          >
             Começar Agora
           </Button>
         </div>

@@ -28,7 +28,11 @@ export const HeroSection = () => {
               samba e pagode mantendo o ritmo do inicio ao fim sem se cansar ou pagar mico.
             </p>
             
-            <Button variant="hero" size="lg">
+            <Button 
+              variant="hero" 
+              size="lg"
+              onClick={() => window.open('https://pay.hotmart.com/L56769807K?checkoutMode=10&bid=1752167369218&utm_source=cafe&utm_medium=pv&utm_campaign=pandeirando+com+carlos+cafe&utm_id=carlos+cafe', '_blank')}
+            >
               Sim, QUERO APRENDER PANDEIRO!
             </Button>
             

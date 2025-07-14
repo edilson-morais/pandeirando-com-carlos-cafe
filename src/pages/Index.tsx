@@ -7,6 +7,7 @@ import { CourseModules } from "@/components/CourseModules";
 import { BonusSection } from "@/components/BonusSection";
 import { PricingSection } from "@/components/PricingSection";
 import { FAQSection } from "@/components/FAQSection";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
         <PricingSection />
       </div>
       <FAQSection />
+      <Footer />
     </div>
   );
 };

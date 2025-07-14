@@ -16,7 +16,7 @@ export const AboutInstructor = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left - Photo and Stats */}
             <div className="space-y-6">
-              <div className="relative">
+              <div className="relative max-w-md mx-auto">
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-elegant">
                   <img 
                     src="/lovable-uploads/fa3e7926-d5ea-4229-a261-d3f361336be3.png" 

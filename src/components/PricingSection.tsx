@@ -6,6 +6,15 @@ export const PricingSection = () => {
   const features = ["Método testado e aprovado para chegar no seu objetivo final", "Curso Completo com 15 módulos do iniciante ao avançado", "02 anos de acesso ao curso com direito às atualizações", "Bônus #01 - Mini-Curso Dicafé", "Bônus #02 - Lives Exclusivas", "Bônus #03 - Desconto nos Produtos Carlos Café", "Bônus #04 - Grupo Exclusivo para Alunos"];
   return <section className="py-20 bg-gradient-to-b from-background to-muted/30">
       <div className="container mx-auto px-4">
+        {/* Promotional Banner */}
+        <div className="text-center mb-12">
+          <img 
+            src="/lovable-uploads/c622f8b2-40bf-4938-83fe-32f2d9459ca7.png" 
+            alt="Pandeirando com Carlos Café - Promoção" 
+            className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+          />
+        </div>
+        
         <div className="text-center mb-16">
           <h2 className="text-4xl lg:text-5xl font-bold mb-6">
             QUANTO CUSTA PARA FAZER PARTE DO <span className="text-primary">PANDEIRANDO COM CARLOS CAFÉ</span>?

@@ -18,11 +18,7 @@ export const AboutInstructor = () => {
             <div className="space-y-6">
               <div className="relative max-w-md mx-auto">
                 <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-elegant">
-                  <img 
-                    src="/lovable-uploads/fa3e7926-d5ea-4229-a261-d3f361336be3.png" 
-                    alt="Carlos Café" 
-                    className="w-full h-full object-cover object-center"
-                  />
+                  
                 </div>
                 
                 {/* Floating badges */}

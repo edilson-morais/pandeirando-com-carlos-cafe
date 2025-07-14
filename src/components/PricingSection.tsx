@@ -8,11 +8,7 @@ export const PricingSection = () => {
       <div className="container mx-auto px-4">
         {/* Promotional Banner */}
         <div className="text-center mb-12">
-          <img 
-            src="/lovable-uploads/c622f8b2-40bf-4938-83fe-32f2d9459ca7.png" 
-            alt="Pandeirando com Carlos Café - Promoção" 
-            className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
-          />
+          <img src="/lovable-uploads/c622f8b2-40bf-4938-83fe-32f2d9459ca7.png" alt="Pandeirando com Carlos Café - Promoção" className="w-full max-w-2xl mx-auto rounded-lg shadow-lg" />
         </div>
         
         <div className="text-center mb-16">
@@ -29,10 +25,7 @@ export const PricingSection = () => {
           <Card className="p-8 bg-gradient-card border-2 border-primary/20 relative overflow-hidden mb-8">
             {/* Popular Badge */}
             <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-              <Badge className="bg-primary text-primary-foreground px-6 py-2 text-sm font-bold shadow-lg">
-                <Star className="w-4 h-4 mr-1" />
-                MAIS POPULAR
-              </Badge>
+              
             </div>
 
             <div className="grid lg:grid-cols-2 gap-8 items-center">

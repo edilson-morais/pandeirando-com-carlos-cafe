@@ -6,9 +6,9 @@ export const HeroSection = () => {
   return (
     <section className="min-h-screen bg-gradient-hero relative overflow-hidden">
       {/* Background Image */}
-      <div className="absolute inset-0 opacity-20">
+      <div className="absolute inset-0 opacity-30">
         <img 
-          src={pandeiroHero} 
+          src="/lovable-uploads/608d34a5-bd6c-457d-843f-635be293911d.png" 
           alt="Pandeiro" 
           className="w-full h-full object-cover"
         />

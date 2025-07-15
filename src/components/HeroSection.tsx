@@ -8,7 +8,7 @@ export const HeroSection = () => {
       {/* Background Image */}
       <div className="absolute inset-0 opacity-30">
         <img 
-          src="/lovable-uploads/608d34a5-bd6c-457d-843f-635be293911d.png" 
+          src="/lovable-uploads/68dfbc40-4a6c-45d0-b440-a567ba8febbe.png" 
           alt="Pandeiro" 
           className="w-full h-full object-cover"
         />

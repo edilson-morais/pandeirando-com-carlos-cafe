@@ -18,7 +18,7 @@ export const Footer = () => {
           
           <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-4">
             <a 
-              href="https://docs.google.com/document/d/1cujd9EZd4IPvh9SKiMm_WxlPLaWreXOLGpfdPqt5B5U/edit?usp=sharing"
+              href="https://politica-de-privacidade.rota50ia.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-primary hover:text-primary/80 transition-colors"
@@ -27,7 +27,7 @@ export const Footer = () => {
             </a>
             <span className="hidden sm:inline text-muted-foreground">|</span>
             <a 
-              href="https://docs.google.com/document/d/1VfeN-on1or9DW6V9qcRpAqKLE3LOjLdIB6YttO9hhAw/edit?usp=sharing"
+              href="https://politica-de-privacidade.rota50ia.com"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm text-primary hover:text-primary/80 transition-colors"
